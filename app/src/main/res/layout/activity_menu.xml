@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".menu">
+
+    <CheckBox
+        android:id="@+id/playerCheck1"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="78dp"
+        android:text="Çok Oyuncu"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/hard1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerCheck" />
+
+    <CheckBox
+        android:id="@+id/playerCheck"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="204dp"
+        android:text="Tek Oyunculu"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/playerCheck1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/hard1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="2x2"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/hard2"
+        app:layout_constraintEnd_toEndOf="@+id/hard2"
+        app:layout_constraintStart_toStartOf="@+id/hard2"
+        app:layout_constraintTop_toBottomOf="@+id/playerCheck1" />
+
+    <CheckBox
+        android:id="@+id/hard2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="4x4"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/hard3"
+        app:layout_constraintEnd_toEndOf="@+id/hard3"
+        app:layout_constraintStart_toStartOf="@+id/hard3"
+        app:layout_constraintTop_toBottomOf="@+id/hard1" />
+
+    <CheckBox
+        android:id="@+id/hard3"
+        android:layout_width="136dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="70dp"
+        android:text="6x6"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hard2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="91dp"
+        android:enabled="false"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/hard3"
+        app:layout_constraintTop_toBottomOf="@+id/hard3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

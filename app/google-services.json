@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "350323147886",
+    "project_id": "proje3-cd394",
+    "storage_bucket": "proje3-cd394.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350323147886:android:8d145fc853c411a080927f",
+        "android_client_info": {
+          "package_name": "com.yonis.proje3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350323147886-oj93oppfm1trvfea0si9haelo6ad0eti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiQw1Ac7UWu7gXjB1FJdy1bCIiwJlJI8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350323147886-oj93oppfm1trvfea0si9haelo6ad0eti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
